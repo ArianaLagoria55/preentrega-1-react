@@ -1,0 +1,29 @@
+.contenedorItem {
+    display: grid;
+    grid-template-areas:
+    "img descripcionProd descripcionProd"
+    "img contador btnCart";
+    margin: 1rem 2rem 0 2rem;
+}
+.descripContenedor{
+    padding: 1rem;
+}
+.contenedorItem img{
+    width: 30rem;
+}
+img {
+    width: 50vw;
+}
+.descripContenedor{
+    grid-area: descripcionProd;
+}
+img{
+    grid-area: img;
+}
+.contadorContainer{
+    grid-area: contador;
+    justify-self: end;
+}
+button{
+    grid-area: btnCart;
+}
