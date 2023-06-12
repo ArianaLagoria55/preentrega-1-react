@@ -2,7 +2,7 @@ import React from 'react'
 import './CardWidget.css'
 
 const CardWidget = () => {
-    const imgCarrito = "https://img.freepik.com/vector-premium/icono-carrito-compras-estilo-color-plano_755164-732.jpg?w=740"
+    const imgCarrito = "https://cdn-icons-png.flaticon.com/512/107/107831.png"
     return (
         <div>
             <img className='imgCarrito' src={imgCarrito} alt="Carrito de compras" />
